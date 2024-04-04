@@ -27,7 +27,7 @@ public class PinterestMessage {
 	WebElement profile;
 	@FindBy(xpath="//*[@id=\"__PWS_ROOT__\"]/div/div[1]/div/div[2]/div/div/div/div[1]/div/div/div[4]/div/div/div/span")
 	WebElement following;
-	@FindBy(xpath="/html/body/div[4]/div/div/div/div[2]/div/div[1]/div/div/div/button")
+	@FindBy(xpath="//button[@aria-label='Close modal']")
 	WebElement closefollowing;
 	@FindBy(xpath="//button[@aria-label='Accounts and more options']")
 	WebElement dropdown;
