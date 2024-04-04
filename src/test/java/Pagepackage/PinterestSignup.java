@@ -27,7 +27,7 @@ public class PinterestSignup {
 	WebElement signin;
 	@FindBy(xpath="//div[@data-test-id='header-profile']")
 	WebElement profile;
-	@FindBy(xpath="//*[@id=\"__PWS_ROOT__\"]/div/div[1]/div/div[2]/div/div/div/div[1]/div/div/div[5]/div/div/div[2]/div/div/div/button")
+	@FindBy(xpath="//div[@class='xuA']/button[1]")
 	WebElement editprofile;
 	@FindBy(xpath="//textarea[@name='about']")
 	WebElement about;
